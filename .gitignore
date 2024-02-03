@@ -1,0 +1,16 @@
+# Ignore Terraform files
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+
+# Ignore keys
+/terraform/key
+/terraform/key.pub
+
+# Ignore .DS_Store files on macOS
+.DS_Store
+
+# Ignore IDE-specific directories
+.vscode/
+.idea/
